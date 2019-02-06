@@ -1,5 +1,8 @@
-# WorkerPool based on worker_threads that allows executing synchronous functions asynchronously using Workers stored in pool.
-## Usage
+## WorkerPool based on worker_threads that allows executing synchronous functions asynchronously using Workers stored in pool
+[![Build Status](https://travis-ci.org/DarthPigrum/worker-executor.svg?branch=master)](https://travis-ci.org/DarthPigrum/worker-executor)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/77ced1d9e53b482286b86f29039d160f)](https://www.codacy.com/app/DarthPigrum/worker-executor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DarthPigrum/worker-executor&amp;utm_campaign=Badge_Grade)
+[![npm version](https://badge.fury.io/js/worker-executor.svg)](https://badge.fury.io/js/worker-executor)
+### Usage
 ```javascript
 const WorkerPool = require('worker-executor');
 const hardFunction = (n) => {
