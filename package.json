@@ -1,0 +1,23 @@
+{
+  "name": "worker-executor",
+  "version": "0.0.1",
+  "description": "WorkerPool based on worker_threads that allows executing synchronous functions asynchronously using Workers stored in pool.",
+  "main": "executor.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthPigrum/worker-executor.git"
+  },
+  "keywords": [
+    "WorkerPool",
+    "worker-executor"
+  ],
+  "author": "Mike Zhukov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarthPigrum/worker-executor/issues"
+  },
+  "homepage": "https://github.com/DarthPigrum/worker-executor#readme"
+}
