@@ -1,8 +1,6 @@
 'use strict';
 const { Worker } = require('worker_threads');
-const libPATH = module.filename.split('/');
-libPATH.pop();
-const workerPATH = libPATH.join('/') + '/worker.js';
+const workerPATH = module.filename.replace('executor.js', 'worker.js');
 module.exports = class WorkerPool {
   constructor(size = 0) {
     this.workers = [];
