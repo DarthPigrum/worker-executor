@@ -3,7 +3,7 @@ const WorkerPool = require('..');
 const numberOfThreads = 4;
 const threadsInPool = 2;
 const DATA = 'test';
-const START = '00';
+const START = '00000';
 const pool = new WorkerPool(threadsInPool);
 pool.allowSpawn = true;
 const niceSHA = (data, start, thread, threadAmount) => {
